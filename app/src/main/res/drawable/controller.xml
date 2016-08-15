@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 按下状态 控制状态图像的切换 -->
+    <item android:drawable="@drawable/w_led_on" android:state_pressed="true"/>
+
+    <!-- 默认状态 -->
+    <item android:drawable="@drawable/w_led_off"/>
+
+</selector>

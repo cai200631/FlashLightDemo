@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/framelayout_color_light"
+              android:orientation="vertical"
+              android:background="#F00"
+              android:onClick="onClick_ShowColorPicker"
+              android:visibility="gone"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+   <com.xidian.joe.joeflashlight.widget.HideTextView
+    android:id="@+id/textview_color_light"
+    android:gravity="center"
+    android:text="@string/hint_colorlight"
+    android:textSize="20sp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+</FrameLayout>

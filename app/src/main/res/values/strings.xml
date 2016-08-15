@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">JoeFlashlight</string>
+    <string name="morse_input">请输入摩斯密码(只能输入字母、数字和空格)</string>
+    <string name="sos_morse">SOS</string>
+    <string name="click_bulb">电灯泡：点击变亮</string>
+    <string name="hint_colorlight">彩色灯：点击显示调色板</string>
+    <string name="police_str">警灯</string>
+    <string name="warning_hint">警示灯闪烁频率</string>
+    <string name="police_hint">警灯闪烁频率</string>
+    <string name="fast">快</string>
+    <string name="slow">慢</string>
+    <string name="add_shortcut">添加快捷方式</string>
+    <string name="delete_shortcut">移除快捷方式</string>
+</resources>

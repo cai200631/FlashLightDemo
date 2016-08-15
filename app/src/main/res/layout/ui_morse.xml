@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/linearlayout_morse"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginLeft="30dp"
+              android:layout_marginRight="30dp"
+              android:layout_marginTop="200dp"
+              android:orientation="vertical"
+              android:visibility="gone">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/morse_input"
+        android:textColor="#fff"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/ed_morse_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/sos_morse"
+        android:textColor="#fff"
+        android:textSize="25sp"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/morse_send"
+        android:onClick="onClick_SendMorse"/>
+
+</LinearLayout>

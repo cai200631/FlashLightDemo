@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.xidian.joe.joeflashlight.MainActivity">
+
+    <include layout="@layout/ui_flashlight"/>
+    <include layout="@layout/ui_main"/>
+    <include layout="@layout/ui_warninglight"/>
+    <include layout="@layout/ui_morse"/>
+    <include layout="@layout/ui_bulb"/>
+    <include layout="@layout/ui_colorlight"/>
+    <include layout="@layout/ui_policelight"/>
+    <include layout="@layout/ui_settings"/>
+
+    <ImageView
+        android:id="@+id/imageview_controller"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="top|right"
+        android:onClick="onClick_Controller"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/controller"/>
+
+
+</FrameLayout>

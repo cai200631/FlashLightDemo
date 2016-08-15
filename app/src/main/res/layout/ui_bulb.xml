@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:visibility="gone"
+             android:id="@+id/framelayout_bulb"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageview_bulb"
+        android:src="@drawable/bulb_cross_fade"
+        android:layout_width="match_parent"
+        android:onClick="onClick_Bulb"
+        android:layout_height="match_parent"/>
+    <com.xidian.joe.joeflashlight.widget.HideTextView
+        android:id="@+id/textview_bulb"
+        android:gravity="center"
+        android:text="@string/click_bulb"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</FrameLayout>
